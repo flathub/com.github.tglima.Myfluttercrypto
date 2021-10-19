@@ -15,8 +15,8 @@
     
     <description>
         <p>Quite simply, MyFlutterCrypto uses a keyword to scramble/unscramble the entered text, this keyword can be changed in the application's settings. Without the exact keyword it is not possible to unscramble text that has been scrambled before. Whenever the application is closed, the keyword goes back to its initial value, preventing them from discovering the keyword you use to scramble your texts.</p>
-        <p>Language support: English, portuguese and spanish</p>
-        <p>If your device's language isn't Portuguese or Spanish, the app will load in English automatically.</p>
+        <p>Language support: English, italian, portuguese and spanish</p>
+        <p>If your device's language isn't Italian, Portuguese or Spanish, the app will load in English automatically.</p>
     </description>
     <description xml:lang="pt_BR">
         <p>De forma bem simples, o MyFlutterCrypto utiliza uma palavra chave para embaralhar/desembaralhar o texto informado, essa palavra chave pode ser alterada nas configurações da aplicação. Sem a palavra chave exata não é possível desembaralhar o texto que foi embaralhado antes. Sempre que a aplicação é fechada a palavra chave volta para seu valor inicial, impedindo assim que descubram a palavra chave que você usa para embaralhar seus textos.</p>
@@ -37,6 +37,21 @@
     <url type="bugtracker">https://github.com/tglima/myfluttercrypto/issues</url>
 
     <releases>
+        <release version="1.0.20211018" date="2021-10-18">
+            <description>
+                <ul>
+                    <li>Add italian language support</li>
+                </ul>
+            </description>
+        </release>        
+        <release version="1.0.20211017" date="2021-10-17">
+            <description>
+                <ul>
+                    <li>Improvements and fixes related to about screen</li>
+                    <li>Improvements to make the application's flatpak available</li>
+                </ul>
+            </description>
+        </release>        
         <release version="1.0.20211012" date="2021-10-12">
             <description>
                 <ul>

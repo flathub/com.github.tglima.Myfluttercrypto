@@ -20,21 +20,19 @@ modules:
     - mv data /app/
     - mv lib /app/
     - install -Dpm755 myfluttercrypto /app/myfluttercrypto
+    - install -Dpm644 myfluttercrypto.svg /app/share/icons/hicolor/scalable/apps/com.github.tglima.Myfluttercrypto.svg
     - ln -s /app/myfluttercrypto /app/bin/myfluttercrypto
    sources:
     - type: archive
-      url: https://github.com/tglima/myfluttercrypto/releases/download/MyFlutterCrypto_1.0.20211012/myfluttercrypto_linux_x64.tar.gz
-      sha256: a9b1ad258490efbcb91ad71844bf8f2dcfcda23a4dfce5c087ccf55151e700d1
+      url: https://github.com/tglima/myfluttercrypto/releases/download/MyFlutterCrypto_1.0.20211018/myfluttercrypto_linux_x64.tar.gz
+      sha256: c175448b9f4e45938a62192a15900403be222c9903bb69547a5fbd63dbd2bd57
  - name: myfluttercrypto-extra
    buildsystem: simple
    build-commands:
     - install -Dpm644 com.github.tglima.Myfluttercrypto.desktop /app/share/applications/com.github.tglima.Myfluttercrypto.desktop
-    - install -Dpm644 com.github.tglima.Myfluttercrypto.svg /app/share/icons/hicolor/scalable/apps/com.github.tglima.Myfluttercrypto.svg
     - install -Dpm644 com.github.tglima.Myfluttercrypto.metainfo.xml /app/share/metainfo/com.github.tglima.Myfluttercrypto.metainfo.xml
    sources:
     - type: file
       path: extra/com.github.tglima.Myfluttercrypto.desktop
-    - type: file
-      path: extra/com.github.tglima.Myfluttercrypto.svg
     - type: file
       path: extra/com.github.tglima.Myfluttercrypto.metainfo.xml
