@@ -65,4 +65,9 @@
     <icon type="remote" height="128" width="128">https://raw.githubusercontent.com/tglima/myfluttercrypto/77e6dd08bafc2cf688d826f9884256c4c0eedb95/docs/images/myfluttercrypto.svg</icon>
     
     <update_contact>tglimatech@outlook.com</update_contact>    
+    <keywords>
+        <keyword>crypto</keyword>
+        <keyword>encrypt</keyword>
+        <keyword>decrypt</keyword>
+    </keywords>
 </component>
